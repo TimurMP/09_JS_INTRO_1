@@ -22,9 +22,6 @@ const luckyNumber = function (x) {
     }
     sum1 = Math.ceil(sum1);
     sum2 = Math.ceil(sum2)
-
-    console.log(sum1)
-    console.log(sum2)
     if (sum1 === sum2) {
         return true;
     }
